@@ -5,7 +5,7 @@
             <div class="col-lg-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        DataTables Advanced Tables
+                        DataTables
                     </div>
                     <!-- /.panel-heading -->
                     <div class="panel-body">
@@ -24,7 +24,7 @@
                                     <td>{{$item->id}}</td>
                                     <td>{{$item->name}}</td>
                                     <td class="center">{{$item->description}} vnd</td>
-                                    <td><img src="{{$item->images}}" alt="" style="width: 100px; border-radius: 10%"></td>
+                                    <td><img src="{{$item->images}}" alt="" style="width: 150px; border-radius: 10%"></td>
                                     <td class="center">
                                         <a href="/admin/category/{{$item -> id}}/edit">Edit</a>&nbsp;&nbsp;
                                         <span class="btn-delete" id="{{$item-> id}}">Delete</span>
